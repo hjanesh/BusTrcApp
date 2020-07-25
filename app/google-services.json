@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "993885757765",
+    "firebase_url": "https://bustrc101.firebaseio.com",
+    "project_id": "bustrc101",
+    "storage_bucket": "bustrc101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993885757765:android:c2eb59c86bf5d87dbdde2c",
+        "android_client_info": {
+          "package_name": "com.bustrc101.ammu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993885757765-4jd2l65tk3ficnf5ultc8mjn80il744u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm3tfBzf1lQq63O7dY_e4KUtZxU40jWtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993885757765-4jd2l65tk3ficnf5ultc8mjn80il744u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
