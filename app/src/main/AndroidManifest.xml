@@ -13,19 +13,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LiveLocation"
-            android:label="LIVE LOCATION"/>
-        <activity android:name=".AdminActivity"
-            android:label="BE CAREFUL"/>
-        <activity android:name=".LocationTrack"
-            android:label="TRACK ID"/>
-        <activity android:name=".MapsActivity"
-            android:label="LOCATION SHARING"/>
-        <activity android:name=".MainActivity"
+        <activity android:name=".SignupActivity"></activity>
+        <activity
+            android:name=".LiveLocation"
+            android:label="LIVE LOCATION" />
+        <activity
+            android:name=".AdminActivity"
+            android:label="BE CAREFUL" />
+        <activity
+            android:name=".LocationTrack"
+            android:label="TRACK ID" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="LOCATION SHARING" />
+        <activity
+            android:name=".MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
