@@ -9,9 +9,13 @@
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp">
@@ -72,6 +76,16 @@
             android:textSize="20sp" />
 
         <Button
+            android:id="@+id/btn_user_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/mapbox_blue"
+            android:text="Sign UP"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
             android:id="@+id/btn_loc"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="fill_parent"
@@ -84,6 +98,7 @@
 
 
     </LinearLayout>
+    </ScrollView>
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -92,5 +107,7 @@
         android:layout_gravity="center|bottom"
         android:layout_marginBottom="20dp"
         android:visibility="gone" />
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

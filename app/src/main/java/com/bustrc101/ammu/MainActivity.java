@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         Button btnLogin = findViewById(R.id.btn_login);
         Button btnLoc = findViewById(R.id.btn_loc);
+        Button btnSign = findViewById(R.id.btn_user_signup);
 
 
         mAuth = FirebaseAuth.getInstance();
@@ -114,6 +115,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), LocationTrack.class));
+            }
+        });
+
+        btnSign.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,SignupActivity.class));
             }
         });
     }
